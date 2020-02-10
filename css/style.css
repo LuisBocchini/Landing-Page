@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: 'Roboto'
+}
+
+body,
+html {
+    background-color: #002F53;
+    width: 100%;
+    height: 100%;
+}
+
+.background_imagem {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.background_imagem img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+.logo {
+    width: 75%;
+    text-align: center;
+    display: flex;
+    height: 150px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo div {
+    position: absolute;
+    width: 94px;
+    height: 63px;
+    border: 2px solid #F25D50;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo div span {
+    font-size: 40px;
+    color: #F25D50;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo img {
+    height: auto;
+    width: 200px;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    margin-top: -20px;
+}
+
+.texto {
+    width: 500px;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 69px;
+    z-index: 99;
+}
+
+.texto .span_1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.texto .span_2 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    color: #F25D50;
+}
+
+.texto .span_3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.text .span_4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.formulario {
+    width: 500px;
+    height: 557px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECEBEB;
+    z-index: 99;
+}
+
+.itens_formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 455px;
+    align-items: center;
+}
+
+.formulario span {
+    width: 90%;
+    color: #002F53;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.formulario input {
+    width: 90%;
+    border: 1px solid #002F53;
+    box-sizing: border-box;
+    height: 40px;
+    margin-top: 6px;
+    text-indent: 10px;
+    color: #002F53;
+    font-size: 18x;
+}
+
+.formulario h1 {
+    text-align: center;
+    font-size: 25px;
+    color: #002F53;
+    transform: translateY(36px);
+}
+
+.formulario button {
+    width: 90%;
+    height: 40px;
+    background: #F25D50;
+    border: none;
+    margin-top: 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.formulario button:hover {
+    background-color: #002F53;
+    border: 1px solid #002F53;
+    color: white;
+    transition: 0.5s;
+}
